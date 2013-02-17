@@ -9,41 +9,51 @@
   </head>
   <body>
     <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    
+    <script src="js/bootstrap.js"></script>
+<div class="navbar navbar-fixed-top">
     <div class="navbar">
     	<div class="navbar-inner">
-    		<a class="brand" href="#">Contribute</a>
-    		<ul class="nav">
-    			<li class="active"><a href="#">Home</a></li>
-    			<li class="dropdown">
-    				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-      					Pizza
-      					<b class="caret"></b>
-    				</a>
-    				<ul class="dropdown-menu">
-    					<li><a href="#">Plain</a></li>
-    					<li><a href="#">Cheesy</a></li>
-    					<li class="dropdown-submenu">
-    						<a href="#">Other</a>
-    						<ul class="dropdown-menu">
-    							<li><a href="#">Meat</a></li>
-    							<li><a href="#">Fish</a></li>
-    						</ul>	
-    					</li>
-    				</ul>
-    			</li>
-    			<li><a href="#">Contact</a></li>
-    		</ul>
-    		<form class="form-inline navbar-form pull-right">
-				<input type="text" class="input-small" placeholder="Email">
-				<input type="password" class="input-small" placeholder="Password">
-				<label class="checkbox">
-					<input type="checkbox"> Remember me
-				</label>
-				<button type="submit" class="btn">Sign in</button>
-			</form>
-		</div>    	
+			<div class="container-fluid">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+      			<a class="brand" href="#">Contribute</a>
+				<div class="nav-collapse">
+
+					<ul class="nav">
+						<li class="active"><a href="#">Home</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Pizza
+								<b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Plain</a></li>
+								<li><a href="#">Cheesy</a></li>
+								<li class="dropdown-submenu">
+									<a href="#">Other</a>
+									<ul class="dropdown-menu">
+										<li><a href="#">Meat</a></li>
+										<li><a href="#">Fish</a></li>
+									</ul>	
+								</li>
+							</ul>
+						</li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+					<form class="form-inline navbar-form pull-right">
+						<input type="text" class="input-small" placeholder="Email">
+						<input type="password" class="input-small" placeholder="Password">
+						<label class="checkbox">
+							<input type="checkbox"> Remember me
+						</label>
+						<button type="submit" class="btn">Sign in</button>
+					</form>
+				</div>
+			</div>   
+		</div> 	
     </div>
     
     <div class="row">
